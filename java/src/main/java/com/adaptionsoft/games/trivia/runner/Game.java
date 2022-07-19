@@ -1,4 +1,4 @@
-package com.adaptionsoft.games.uglytrivia;
+package com.adaptionsoft.games.trivia.runner;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
