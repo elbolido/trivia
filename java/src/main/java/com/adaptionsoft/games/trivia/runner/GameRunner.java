@@ -1,5 +1,6 @@
 
 package com.adaptionsoft.games.trivia.runner;
+import java.io.PrintStream;
 import java.util.Random;
 
 import com.adaptionsoft.games.uglytrivia.Game;
@@ -9,9 +10,12 @@ public class GameRunner {
 
 	private static boolean notAWinner;
 
-
 	public static void main(String[] args) {
-		Game aGame = new Game();
+		run(System.out);
+	}
+
+	public static void run(PrintStream out) {
+		Game aGame = new Game(out);
 
 		aGame.add("Chet");
 		aGame.add("Pat");
@@ -32,6 +36,5 @@ public class GameRunner {
 
 
 		} while (notAWinner);
-
 	}
 }
