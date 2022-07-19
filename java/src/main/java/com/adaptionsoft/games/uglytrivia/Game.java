@@ -13,6 +13,8 @@ public class Game {
     LinkedList scienceQuestions = new LinkedList();
     LinkedList sportsQuestions = new LinkedList();
     LinkedList rockQuestions = new LinkedList();
+
+
     
     int currentPlayer = 0;
     boolean isGettingOutOfPenaltyBox;
